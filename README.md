@@ -14,7 +14,7 @@
 
 下载：
 
-1. 将下载的压缩文件包**解压到当前文件夹**：![image-20210902095719834](https://i.loli.net/2021/09/02/LeBfMSTyFW4agvC.png) $>$ ![image-20210902095733162](https://i.loli.net/2021/09/02/ngi4cyHR9YBCSh8.png)
+1. ![image-20210902202930613](https://i.loli.net/2021/09/02/zO2xlqdeXsfbLvg.png)
 
 2. 打开blender；
 
@@ -26,12 +26,10 @@
 	
 5. 在弹出的新窗口中选择刚才解压好的文件夹 **JK Blender Tools** 下面的**Auto JK Tools.zip** 
     *（注意这个压缩包**不要解压！！**）*
-    ![image-20210902095827832](https://i.loli.net/2021/09/02/j5caBEbGoVlh7IH.png)
-
+    ![image-20210902203043234](https://i.loli.net/2021/09/02/PtcL5r3WNeanJYk.png)
+  
 6. 最后在安装好之后会弹出下面这个界面，勾选上这个插件就可以了。
-   ![image-20210831131426513](C:\Users\rabichorali\AppData\Roaming\Typora\typora-user-images\image-20210831131426513.png)
-   
-   
+	![image-20210902203123738](C:\Users\rabichorali\AppData\Roaming\Typora\typora-user-images\image-20210902203123738.png)
 
 ## 功能简介与使用方法
 
@@ -48,13 +46,13 @@ N：法线
 E：自发光
 S：3S
 
-***Blender模板材质名称：JKStandard***
+***Blender模板材质名称：FillingInStandard***
 
 使用方法：
 - 打开blend文件之后会出现两个界面，在左边界面（主界面，比较大的界面）左下角板块的Shader Editor（板块的左上角图标为：![image-20210831102615827](https://i.loli.net/2021/08/31/cnP9N6ZLwzTlIy7.png))中，在名为“颜色贴图D”的节点中点击“Open”，在弹出的窗口中选择合适的规范命名贴图。
   ![](https://i.loli.net/2021/08/31/qZ2MbikoswrzRQF.png)<img src="https://i.loli.net/2021/08/31/9fBcSd6UonWV8TF.png" alt="image-20210831103203718" style="zoom: 50%;" />
 
-- 之后在同一个板块的右侧边栏点击最后一个标签“JK材质工具”，之后点击“根据颜色贴图查找其他”即可填入缺失的其他贴图。
+- 之后在同一个板块的右侧边栏点击最后一个标签“材质工具”，之后点击“根据颜色贴图查找其他”即可填入缺失的其他贴图。
 <img src="https://i.loli.net/2021/08/31/bnGo4FZQTHXJmO6.png" alt="image-20210831103416486" style="zoom:67%;" />
 
 
@@ -72,7 +70,7 @@ S：3S
 
 - 打开一张图片；
 - **将输入法切换为英文**，按下**“N”**打开侧边栏；
-- 点击右手边侧边栏最下方的标签**“JK贴图降噪”**；
+- 点击右手边侧边栏最下方的标签**“贴图降噪”**；
 - 在弹出的面板中可以勾选是否需要**覆盖原图**进行保存；
 	![image-20210831104552342](https://i.loli.net/2021/08/31/L38JRnB4GTywkzg.png)
 - 最后点击按钮**“贴图降噪（已导入图片）”**进行自动降噪；
@@ -83,11 +81,11 @@ S：3S
 
 ### 3. 自动化模型模板图渲染
 
-此功能需要在blender模板文件**“3D角色渲染模板.blend”**进行运行。在导入了对应模型，修改了版头文字，背景颜色和阴影颜色之后点击按钮即可一键渲染出模板图。
+此功能需要在blender模板文件**“3D Model Template.blend”**进行运行。在导入了对应模型，修改了版头文字，背景颜色和阴影颜色之后点击按钮即可一键渲染出模板图。
 
 使用方法：
 
-- 打开blender模板文件**“3D角色渲染模板.blend”**
+- 打开blender模板文件**“3D Model Template.blend”**
   
 - 导入模型；
 
@@ -131,7 +129,7 @@ S：3S
 
   ![image-20210831130039268](https://i.loli.net/2021/08/31/X1h8g5vmREWlK2T.png)
 
-- 最后点击右边侧边栏最后一项**“JK自动化渲染”**，点击**“自动渲染”**进行渲染出图。（注意电脑需要事先安装好Photoshop，否则将不能完成渲染）
+- 最后点击右边侧边栏最后一项**“自动化渲染”**，点击**“自动渲染”**进行渲染出图。（注意电脑需要事先安装好Photoshop，否则将不能完成渲染）
 	![image-20210902100108189](https://i.loli.net/2021/09/02/OMWf1BcHDJ8InoN.png)
 	
 - 渲染后的图片会保存在 C:\tmp\ 这个文件夹下，想要另存在别的路径，可以点击**Image Editor**（模板blend文件右上角板块）中的Image > Save As...进行另存为：
